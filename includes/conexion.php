@@ -1,4 +1,3 @@
-
 <?php
 
 // conexion.php - Conexión segura con PDO
@@ -34,5 +33,3 @@ try {
 }
 
 ?>
-
-
