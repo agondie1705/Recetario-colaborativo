@@ -1,6 +1,6 @@
 <?php
     define('ACCESO_PERMITIDO', true);
-    require_once 'conexion.php';
+    require_once './includes/conexion.php';
 
 
     $incidencias = [];

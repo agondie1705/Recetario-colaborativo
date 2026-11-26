@@ -9,7 +9,7 @@ if (!defined('ACCESO_PERMITIDO')) {
 }
 
 // Cargar la configuración
-require_once __DIR__ . '/config.php';
+require_once __DIR__ . '/../config.php';
 
 // Opciones de configuración de PDO
 $options = [
