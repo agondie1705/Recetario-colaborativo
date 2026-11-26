@@ -14,6 +14,14 @@ Asimismo, se incorpora una tabla intermedia para gestionar la relación entre re
 
 ---
 
+# Diagrama entidad-relación
+
+El diagrama entidad-relación se encuentra en:
+
+[DiagramaEntidad-Relacion](/docs/img/diagrama_er.png)
+
+---
+
 # Entidad Recetas
 
 Almacena la información principal de cada receta.
@@ -133,16 +141,6 @@ RECETA_INGREDIENTE
 - recetas.id_categoria
 - receta_ingrediente.id_receta
 - receta_ingrediente.id_ingrediente
-
----
-
-# Diagrama entidad-relación
-
-El diagrama entidad-relación se encuentra en:
-
-```text
-docs/img/diagrama_er.png
-```
 
 ---
 
