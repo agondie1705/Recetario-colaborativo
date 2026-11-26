@@ -1,4 +1,4 @@
-# Modelo Entidad-Relación
+# Modelo de Datos
 
 ## Introducción
 
