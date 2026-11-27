@@ -1,0 +1,144 @@
+/* ======================
+   ESTILOS GENERALES
+====================== */
+
+body{
+    background-color: #F8F8F8;
+    color: #2B2B2B;
+    font-family: Inter, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: #1E293B;
+    font-family: Poppins, Arial, sans-serif;
+    font-weight: 700;
+}
+
+/* ======================
+   NAVBAR
+====================== */
+
+.navbar{
+    background-color: #1E293B !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,.08);
+    padding: 15px 0;
+}
+
+.navbar-brand{
+    font-weight: 700;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.nav-link:hover{
+    color: #D6B89C !important;
+}
+
+/* ======================
+   HERO
+====================== */
+
+.hero{
+    padding: 100px 0;
+}
+
+.hero h1{
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/* ======================
+   BOTONES
+====================== */
+
+.btn{
+    border-radius: 10px;
+}
+
+.btn-primary{
+    background-color: #1E293B;
+    border-color: #1E293B;
+}
+
+.btn-primary:hover{
+    background-color: #16202E;
+    border-color: #16202E;
+}
+
+.btn-outline-primary{
+    border-color: #1E293B;
+    color: #1E293B;
+}
+
+.btn-outline-primary:hover{
+    background-color: #1E293B;
+    border-color: #1E293B;
+}
+
+/* ======================
+   TARJETAS
+====================== */
+
+.card{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+    transition: .3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card-title{
+    color: #1E293B;
+    font-weight: 600;
+}
+
+.card img{
+    height: 220px;
+    object-fit: cover;
+}
+
+/* ======================
+   FOOTER
+====================== */
+
+footer{
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #E5E7EB;
+    color: #666;
+}
+
+/* ======================
+   RESPONSIVE
+====================== */
+
+@media (max-width: 768px){
+
+    .hero{
+        padding: 60px 20px;
+    }
+
+    .hero h1{
+        font-size: 2.5rem;
+    }
+
+}

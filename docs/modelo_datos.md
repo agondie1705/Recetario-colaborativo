@@ -18,7 +18,7 @@ Asimismo, se incorpora una tabla intermedia para gestionar la relación entre re
 
 El diagrama entidad-relación se encuentra en:
 
-[DiagramaEntidad-Relacion](/docs/img/diagrama_er.png)
+[Diagrama Entidad-Relacion](/docs/img/diagrama_er.png)
 
 ---
 
